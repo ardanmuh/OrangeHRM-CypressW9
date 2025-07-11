@@ -1,0 +1,20 @@
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidUser": {
+    "username": "InvalidUser",
+    "password": "InvalidPass"
+  },
+  "newUsers": {
+    "cypressuser1": {
+      "username": "cypressuser1",
+      "role": "ESS"
+    },
+    "cypressuser2": {
+      "username": "cypressuser2",
+      "role": "Admin"
+    }
+  }
+}
