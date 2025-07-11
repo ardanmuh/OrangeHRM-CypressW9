@@ -41,7 +41,7 @@ Comprehensive end-to-end testing automation framework for OrangeHRM using Cypres
 | **JavaScript** | Programming Language | ES6+ |
 | **Mochawesome** | Test Reporting | ^7.x |
 | **ESBuild** | Build Tool | ^0.19.x |
-| **Node.js** | Runtime Environment | ^18.x |
+| **Node.js** | Runtime Environment | ^24.x |
 
 ## 📁 Project Structure
 
