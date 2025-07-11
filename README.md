@@ -152,7 +152,7 @@ The `cypress.config.js` file contains:
 ### Interactive Mode (Cypress GUI)
 ```bash
 # Open Cypress Test Runner
-npm run cy:open
+npx cypress open
 
 # Open with specific browser
 npm run cy:open -- --browser chrome
@@ -161,37 +161,15 @@ npm run cy:open -- --browser chrome
 ### Headless Mode (CI/CD)
 ```bash
 # Run all tests
-npm run test
+npx cypress run
 
 # Run specific feature
 npm run test -- --spec "cypress/e2e/features/login.feature"
 
 # Run with specific browser
 npm run test -- --browser firefox
-
-# Run with tags
-npm run test -- --env tags="@smoke"
 ```
 
-### Available Scripts
-```bash
-# Development
-npm run cy:open          # Open Cypress GUI
-npm run test            # Run all tests headlessly
-npm run test:chrome     # Run tests in Chrome
-npm run test:firefox    # Run tests in Firefox
-
-# Reporting
-npm run test:report     # Run tests with Mochawesome
-npm run merge:reports   # Merge JSON reports
-npm run generate:report # Generate HTML report
-npm run test:full       # Complete test run with reports
-
-# Utilities
-npm run clean:reports   # Clean old reports
-npm run lint           # Run ESLint
-npm run format         # Format code with Prettier
-```
 
 ## 📊 Test Reports
 
